@@ -5,7 +5,7 @@ public abstract class Food implements Discountable {
     protected double price;
     protected boolean isVegetarian;
 
-    public int getDiscount() {
+    public double getDiscount() {
         return 0;
     }
 
